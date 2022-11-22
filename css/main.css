@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+.container .heading-part h1{
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+.container .open-form-button button{
+    width: 300px;
+    padding: 1rem 1.2rem;
+    border: none;
+    background: rgb(38, 0, 255);
+    color: white;
+    opacity: 0.6;
+    cursor: pointer;
+    position: fixed;
+    bottom: 22px;
+    right: 22px;
+}
+.container .login-form .form{
+    max-width: 310px;
+    background: rgb(249, 250, 248);
+    padding: .7rem;
+}
+.container .login-form{
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid rgb(230, 227, 227);
+    z-index: 9;
+    display: none;
+}
+.container .login-form h1{
+    text-align: center;
+    margin-bottom: 6px;
+}
+.container .login-form input{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+.container .login-form input:focus{
+    background-color: #ddd;
+    outline: none;
+}
+input[type='email']:invalid{
+    color: red;
+}
+input[type='email']:valid{
+    color: rgb(0, 128, 6);
+}
+.container .login-form .button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+.container .login-form .close{
+    background-color: red;
+}
+button:hover{
+    opacity: 1;
+}
